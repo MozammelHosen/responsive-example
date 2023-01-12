@@ -29,7 +29,8 @@ header .progress {
     border-radius: 10px;
 }
 
-.row-second {
+.row-second,
+.row-four {
     display: flex;
     gap: 10px;
 }
@@ -45,4 +46,9 @@ header .progress {
 
 .row-thire img {
     height: 190px;
+}
+
+.row-four-four {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
 }
